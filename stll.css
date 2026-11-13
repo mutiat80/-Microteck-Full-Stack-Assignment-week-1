@@ -1,0 +1,56 @@
+marquee
+{
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+    text-align: center;
+}
+
+a{
+    color: crimson;
+    text-decoration: none;
+}
+img{
+    width: 250px;
+    height: 200px;
+
+}
+
+.profile{
+    border-radius: 300px; 
+    width: 250px;
+    height: 200px;
+}
+
+.list{
+    text-align: left;
+}
+.toptxt{
+    display: flex;
+    justify-content:flex-end ;
+    margin: 20px;
+}
+
+
+#childlist{
+    background-color: white;
+
+}
+
+@media (min-width:420px) and (max-width: 768px){
+    #myvideo{
+       width: 300px;
+       height: 200px;
+    }
+
+    #skill-section{
+         
+    }
+}
+

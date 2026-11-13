@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY PROFILE PAGE</title>
+    <link rel="stylesheet" href="/mutiat frontend/-Microteck-Full-Stack-Assignment-week-1/stll.css">
 </head>
+
 <body>
-    <marquee>WELCOME TO MY PROFILE PAGE</marquee>
-    <head>
+    <marquee direction="right" >WELCOME TO MY PROFILE PAGE</marquee>
+    <header>
         <nav>
-            <a href="#Home">Home</a> |
+            <a href="#Home">Home</a> |  
             <a href="#favorite_video">My Favorite Video</a> |
             <a href="#favorite_food">My favorite food</a> |
             <a href="#favorite_hobby">My favorite hobby</a>
         </nav>
-    </head>
+
+    </header>
     <main>
              <section id="Home">
-                <h1>MUTIAT OLADOKUN</h1>
-             <a href="#Home">HOME</a>
-    <img src="/image/my_pic.jpeg" height="200px" width="250px"  alt="MYPICTURE">
+            <h1>MUTIAT OLADOKUN</h1>
+    <img class="profile" src="/mutiat frontend/-Microteck-Full-Stack-Assignment-week-1/my_pic.jpeg"  alt="MYPICTURE">
     <h2>ABOUT ME</h2>
     <P>
         Hi! My name is Mutiat Oladokun, I am a lady , I am an aspiring Junior Full Stack Developer, <br> An aspiring one by God's grace, 
@@ -29,41 +31,53 @@
     <p>
         I am from <strong>OYO STATE, OYO ALAFIN ESPECIALLY</strong> I love to learn new technology everyday <br> especially in the field of <em>artificial intelligence and 
             machine learning. I beleive I can provide solutions to my community but I am still learning it.
-            I hope one day, I would be able to come up with a solution in the medical line. Before now, I used to be in healh line before I change to computer sc.
+             I hope one day, I would be able to come up with a solution in the medical line. Before now, I used to be in healh line before I change to computer sc.
         </em>
     </p>
-     
-    <h2>MY SKILLS</h2>
+    <div class="list" id="skill-section">
+    <h2 style="text-align: center;">MY SKILLS</h2>
     <P>These are the list of few skills I have for now</P>
+    <div id="childlist">
     <ul>
-        <li>Baking skills</li>
+        <li><i>Baking skills</i></li>
         <li>Teaching skills</li>
         <li>AI Content Creation</li>
         <li>Data Analysis</li>
         <li>Sewing skills</li>
 
     </ul>
+    </div>
 
-    <h2>MY TOP THREE GOALS</h2>
+    <h2 style="text-align: center;">MY TOP THREE GOALS</h2>
     <P>In life, I have <strong>Aspirations</strong> I am looking forward to, they are to become : </P>
     <ol>
         <li>A fully certify Fullstack Developer</li>
         <li>A renowned Software Engineer </li>
         <li>A Certify and Liscenced Medical Doctor</li>
     </ol>
-            <a href="#top">Back to Top ↑</a>
+    </div>
+
+
+            <a class="toptxt"  href="#top">Back to Top ↑</a>
 
              </section>
              <hr>
              
 
              <section id="favorite_video">
-                <a href="#favorite_video">My Favorite video</a>
      <h2>MY FAVOURITE VIDEO</h2>
      <h3><strong>THE MESSAGE</strong></h3>
      <P> My favourite video is titled <em>The Message</em> the name o fthe video has an historical message regarding <br> my life and my religion as a whole</P>
      <a href="https://www.youtube.com/watch?v=mdiViGvY5xQ">The message movie link</a> <br>
-                 <a href="#top">Back to Top ↑</a>
+     
+     <iframe width="300" height="200" src="https://www.youtube.com/embed/mdiViGvY5xQ" frameborder="0" allowfullscreen></iframe>
+
+     
+     <video controls poster="/mutiat frontend/-Microteck-Full-Stack-Assignment-week-1/my_pic.jpeg " width="600" height="500" id="myvideo">
+        <source src="/mutiat frontend/-Microteck-Full-Stack-Assignment-week-1/AnimePahe_Dorohedoro_-_20_360p_SubsPlease (1).mp4" type="video/mp4">
+     </video>
+     
+     <a class="toptxt"  href="#top">Back to Top ↑</a>
              </section>
    
     
@@ -72,18 +86,18 @@
      <!-- food section -->
 
      <section id="favorite_food">
-        <a href="#favorite_food">My favorite food</a>
 
      <h2>MY FAVOURITE FOOD</h2>
      <P>My favourite food is yam and egg, I dont know the reason for this likeness, may be is because of the taste or the fulless it gives mebr perhaps is because of the nutrient I derived from this food, any day I eat yam and eggbr
         I always feel satisfied  that I have eating some special food, first this combo gives me the following :
-        <ol>
+        
+        <ol class="list">
             <li>fullness for the day</li>
             <li>carbohydrate, proteins, fats and vitamins</li>
             <li>Resourceful energy</li>
         </ol>
      </P>
-         <a href="#top">Back to Top ↑</a>
+         <a class="toptxt" href="#top">Back to Top ↑</a>
         
      </section>
      <hr>
@@ -93,16 +107,13 @@
 
      <section id="favorite_hobby">
 
-
-          <a href="#favorite_hobby">My favorite hobby</a>
-
      <h2>MY FAVOURITE HOBBIES</h2>
      <P>My favourite hobbie are quite plenty ooo, but I must say there are few of them that come first <br> so 
      going about my hobbies daily in my life, I love <strong>cooking</strong>, I cant play with my tommy,</P> I also love <strong>coding</strong>, 
      coding is currently the in thing in my life now, I as well love <strong>sewing</strong>. In a way , I love watching <strong>karate</strong> and practice it a bit. </section>
      
      
-     <a href="#top">Back to Top ↑</a>
+     <a class="toptxt"  href="#top">Back to Top ↑</a>
 
      <hr>
      
@@ -131,9 +142,9 @@
 
         <label for>Become My Friend</label>
          
-        <button type="submit"> submit</button>
+        <button type="submit">submit</button>
       </form><br>
-      <a href="#top">Back to Top ↑</a>
+      <a class="toptxt"  href="#top">Back to Top ↑</a>
       
       
       
@@ -164,7 +175,7 @@
 
 
       </table>
-      <a href="#top">Back to Top ↑</a>
+      <a class="toptxt"  href="#top">Back to Top ↑</a>
 
     </main>
     <footer></footer>
